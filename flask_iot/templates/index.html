@@ -1,0 +1,87 @@
+{% extends 'base.html' %}
+{% block title %} holaaa {% endblock %}
+
+{% block content %}
+
+
+<div class="header text-center">
+
+    <div class="col-lg-12">
+        <h1>IoT 2 Dashboard</h1>
+        <p>Lavet af ...</p>
+    </div>
+
+
+    <div class="container-button">
+        <a href="{{ url_for('kontor') }}">
+            <button type="button" class="btn btn-outline-secondary">Kontor</button>
+        </a>
+        <a href="{{ url_for('vejrstation') }}">
+            <button type="button" class="btn btn-outline-secondary">Vejrstation</button>
+        </a>
+        <a href="{{ url_for('tyverialarm') }}">
+            <button type="button" class="btn btn-outline-secondary">Tyveri alarm</button>
+        </a>
+    </div>
+</div>
+
+<div class="container">
+    <div class="d-flex justify-content-center flex-wrap m-5 gap-5">
+        <div class="card" style="width: 18rem;">
+            <img src="static/mads.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Mads</h5>
+                <p class="card-text">SOC-Analyst & Programmør<br> <em>"Livet må forstås baglæns, men leves forlæns."</em></p>
+                
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="static/arthur.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Arthur</h5>
+                <p class="card-text">Iværksætter <br> <em>"Den lykkeligste er han, der er mindst afhængig af andre mennesker."</em></p>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="static/oscar.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Oscar</h5>
+                <p class="card-text">Entreprenør.<br> <em>"Elsker at drømme, drømmer om at elske."</em></p>
+                
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="static/malle.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Amalie</h5>
+                <p class="card-text">SOC-Analyst & Programmør <br><em>"Vi er fængslet af vores egne tanker. Vær venlig at tænke stort."</em></p>
+                
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="static/jos.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Josephine</h5>
+                <p class="card-text">Fuldtidsstuderende <br> <em>"Gennem prøvelser og triumfer, står hun højt, for i hendes ånd bærer hun det hele"</em></p>
+                
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <h1 class="text-light text-center title">Omkring projektet</h1>
+        <div class="container projekt-info rounded">
+            <p>Med henblik på dette projekt og med udgangspunkt i verdensmål 3 og 7, undersøges luftkvaliteten i kontorbygninger, hvor målet her er at forebygge mod dårligt indeklima. God isolering og mangel på udluftning kan føre til både skimmelsvamp, symptomer på sygdom samt generelt svækket arbejdseffektivitet på kontoret . For at undgå dårligt indeklima benytter vores projekt sig hermed af en air quality sensor, som skal måle CO2- og PPM-niveau i det pågældende lokale. Sammen med denne løsning installeres en motorstyringsenhed, der skal åbne et vindue, når disse niveauer er for høje. Udover en virkningsfuld løsning indikeres et generelt overblik for CO2- og PPM-niveau via en LED som lyser når disse tal kommer under- eller over et givent punkt. På denne måde får medarbejderne mulighed for at få et indblik i niveauerne, før de bliver for høje. Selvom motorstyringen sørger for dette ved automatisk at åbne et vindue, kan dette ses som en forudsætning for at bibeholde et godt indeklima. I en PDF om indeklima fra concito belyses netop dette; “Kan der via et forbedret indeklima på eksisterende arbejdspladser skabes en fremgang i produktiviteten i både produceret mængde og kvaliteten af det producerede på bare 1 – 2 %, vil værdien af denne forbedrede produktivitet klart overgå omkostninger ved at forbedre bygningernes indeklima til det nødvendige niveau. Et bedre indeklima kan også sænke sygefraværet blandt medarbejdere, hvilket også skaber økonomisk incitament for virksomheden” . Det er en generel overbevisning hos mange medier, når det kommer til emnet om dårligt indeklima, at både reduceret arbejdseffektivitet samt en stigning i sygdom vil kunne ses i virksomheder rundt om i verden.</p>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+{% endblock %}

@@ -1,0 +1,121 @@
+body {
+    background-color: rgb(15, 15, 15);
+    /*background-color: blue;*/
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+
+
+
+.navbar {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.navbar-brand {
+    font-size: 35px;
+}
+
+.header {
+    height: 100vh;
+    background-image: linear-gradient(to top, transparent, rgb(15,15,15)), url("home.jpg");
+    background-position: center;
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+    
+}
+
+.header h1 {
+    font-weight: 400;
+    font-size: 8vw;
+    color: rgb(230, 230, 230);
+    padding-top: 250px;
+    /*margin-left: 8vw;*/
+
+}
+
+.header p {
+    /*margin-left: 100px;*/
+    color: rgb(107, 107, 107);
+}
+
+.header button {
+    color: rgb(220, 220, 220);
+    border-color: rgb(220, 220, 220);
+}
+
+.header button:hover {
+    background-color: rgb(129, 129, 129);
+}
+/*
+button:active {
+    background-color: aliceblue;
+}
+
+
+.container-button {
+    margin-top: 10px;
+    margin-left: 100px;
+}*/
+
+
+.title{
+    font-size: 60px;
+    font-weight: 300;
+    margin-top: 25px;
+}
+
+
+.about p{
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.home-about-cards {
+    
+    height: 250px;
+    background-color: white;
+    margin-right: 10px;
+    margin-bottom: 50px;
+}
+
+.home-about-cards-last {
+    
+    height: 250px;
+    background-color: white;
+    margin-right: 10px;
+}
+
+.about-img {
+    margin-top: 0px;
+}
+
+
+.projekt-info {
+    background-color: white;
+    margin-bottom: 25px;
+    height: 100wv;
+}
+
+.graf-container {
+    /*height: 1500px;*/
+    background-color: white;
+    
+    
+    
+}
+
+.site-titles {
+    padding-top: 20px;
+}

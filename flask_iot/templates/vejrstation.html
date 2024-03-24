@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block title %} IoT Dashboard {% endblock %}
+
+{% block content %}
+<meta http-equiv="refresh" content="10">
+<div class="container-xxl text-center graf-container rounded">
+    <h1 class="text-dark site-titles">Graf for vejrstation</h1>
+    <h2 class="text-dark">Battery: {{battery_percentage}}%</h2>
+    <img class="img-fluid float-left mb-4" src='data:image/png;base64,{{vejrst_temperature}}'/>
+    <img class="img-fluid float-right mb-4" src='data:image/png;base64,{{vejrst_humidity}}'/>
+</div>
+
+{% endblock %}

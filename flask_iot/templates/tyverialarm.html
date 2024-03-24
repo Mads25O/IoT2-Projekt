@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block title %} IoT Dashboard {% endblock %}
+
+{% block content %}
+<meta http-equiv="refresh" content="10">
+<div class="container-xxl text-center graf-container rounded">
+    <h1 class="text-dark site-titles">Tyverialarm</h1>
+    <h2 class="text-dark">Graf for de sidste 500 bevægelses data</h2>
+    <img class="img-fluid" src='data:image/png;base64,{{tyveri_sensor_data}}'/>
+    <h3 class="text-dark">Sidste bevægelse skete: {{last_pir_data}}</h3>
+
+</div>
+
+{% endblock %}
