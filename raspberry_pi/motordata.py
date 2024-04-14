@@ -3,7 +3,6 @@
 ###################################################################
 
 import serial as ser
-from datetime import datetime
 import paho.mqtt.subscribe as subscribe
 
 
